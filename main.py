@@ -1,4 +1,8 @@
 # Author: ShangYuan Lim szl6038@psu.edu
+# Collaborator: Aryaman Sondhi aps6637@psu.edu
+# Collaborator: Samarth Tehri sqt5555@psu.edu
+# Collaborator: Douglas Hild djh6278@psu.edu
+
 
 temp = input("Enter temperature: ")
 unit = input("Enter unit in F/f or C/c: ")
