@@ -9,11 +9,15 @@ unit = input("Enter unit in F/f or C/c: ")
 
 temp = float(temp)
 
+
+
 if unit == "C" or unit == "c":
-  print ( str(temp) + "° in Celsius is equivalent to " + str(temp*9/5+32) + "° Fahrenheit.")
+  conv = temp*9/5+32
+  print ( f"{temp}° in Celsius is equivalent to " f"{conv}° Fahrenheit.")
 
 elif unit == "F" or unit == "f":
-  print ( str(temp) + "° in Fahrenheit is equivalent to " + str((temp-32)*5/9) + "° Celsius.")
+  conv = (temp-32)*5/9
+  print ( f"{temp}° in Fahrenheit is equivalent to " f"{conv}° Celsius.")
 
 else:
   print(f"Invalid unit({unit}).")
